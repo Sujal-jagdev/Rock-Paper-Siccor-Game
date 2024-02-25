@@ -1,0 +1,27 @@
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#s1{
+    font-size: 70px;
+    padding: 35px;
+    border-radius: 50%;
+    border: 10px solid yellow;
+    cursor: pointer;
+    transition: 0.5s;
+}
+#s1:hover{
+    border: 10px solid rgba(255, 255, 255, 0.517);
+    color: black;
+    background-color: yellow;
+}
+.gh-1 img{
+    width: 20%;
+}
+@media(min-width: 320px) and (max-width: 575px){
+    .gh-1 img{
+        width: 45%;
+    }
+}
